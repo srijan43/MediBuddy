@@ -1,0 +1,101 @@
+body {
+    font-family: "Barlow", sans-serif;
+    background-color: #f7f9fb;
+    color: #0b2b3a;
+    line-height: 1.5;
+  }
+  
+  .container {
+    background-color: #574e4e;
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 45px;
+    box-shadow: 5px 10px #081a4cab;;
+  }
+  
+  h2 {
+    text-align: center;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-size: 45px;
+    font-weight: 400;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    align-items: center;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 85%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .register{
+    align-items: center;
+  }
+
+/* --- Hero & layout styles (moved from index.html) --- */
+.hero { padding: 28px 20px 48px; max-width: 1200px; margin: 0 auto; }
+header { background-color: #000; padding: 12px 0; }
+nav { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 0 20px; }
+.left img { width: 140px; display: block; }
+.right ul { display: flex; gap: 18px; list-style: none; margin: 0; padding: 0; }
+.right ul li a { color: #fff; font-size: 16px; text-decoration: none; padding: 6px 8px; border-radius: 6px; }
+.right ul li a:hover, .right ul li a:focus { color: aquamarine; outline: 2px solid rgba(173, 216, 230, 0.25); outline-offset: 3px; }
+.long { font-size: 44px; line-height: 1.05; color: #072231; margin-bottom: 6px; }
+.short { font-size: 28px; color: #2f5661; font-weight: 500; margin-bottom: 12px; }
+.inshort, .inshort2 { text-align: center; font-size: 18px; color: #465d63; margin-bottom: 8px; max-width: 900px; margin-left: auto; margin-right: auto; }
+.img { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 24px; }
+.img1 { width: 320px; max-width: 48%; border-radius: 8px; object-fit: cover; }
+.imgg { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; margin-top: 20px; }
+.img2, .img3 { width: 340px; max-width: 48%; border-radius: 8px; object-fit: cover; }
+.hero-cta { text-align: center; margin-top: 18px; }
+.btn { display: inline-block; padding: 12px 22px; border-radius: 8px; text-decoration: none; font-weight: 600; transition: background 150ms ease, transform 150ms ease; }
+.btn-primary { background: #007bff; color: #fff; }
+.btn-primary:hover { background: #0056b3; transform: translateY(-1px); }
+.btn:focus { outline: 3px solid rgba(0,123,255,0.25); outline-offset: 4px; }
+
+/* Accessibility helpers */
+.skip-link { position: absolute; left: -9999px; top: auto; width: 1px; height: 1px; overflow: hidden; }
+.skip-link:focus { position: absolute; left: 16px; top: 16px; width: auto; height: auto; background: #fff; color: #000; padding: 8px 12px; border-radius: 4px; z-index: 1000; box-shadow: 0 2px 6px rgba(0,0,0,0.15); }
+
+/* Prefer focus-visible where supported */
+:focus:not(:focus-visible) { outline: none; }
+:focus-visible { outline-offset: 4px; }
+
+.WWW { text-align: left; font-size: 28px; margin: 40px auto 10px; max-width: 1200px; }
+.W1 { display: flex; gap: 12px; align-items: flex-start; margin: 10px auto; max-width: 1200px; }
+@media (max-width: 768px) {
+    .long { font-size: 28px; }
+    .short { font-size: 20px; }
+    .img1, .img2, .img3 { width: 90%; max-width: none; }
+    nav { padding: 0 10px; }
+    .right ul { gap: 12px; }
+}
+  

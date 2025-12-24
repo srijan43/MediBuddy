@@ -1,0 +1,36 @@
+.container {
+    display: flex; 
+    justify-content: center;
+    font-family: "Barlow",sans-serif;
+    padding: 15px;
+    width: 80%;
+  }
+  
+  .body{
+    display:block;
+    font-family: "Barlow",sans-serif;
+    font-size: 30px;
+    align-items: center;
+  }
+.top{
+    display: flex;
+    justify-content: center;
+    font-family: "Barlow",sans-serif;
+    font-size: 70px;
+}
+p{
+    font-size: 23px;
+}
+.data{
+    display:block;
+    font-family: "Barlow",sans-serif;
+    font-size: 20px;
+    align-items: center;
+    margin: 20px;
+    line-height: 1.6;
+}
+img{
+    margin-left: 34px;
+    width: 50%;
+    align-items: center;
+}
