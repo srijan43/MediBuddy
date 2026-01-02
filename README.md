@@ -1,3 +1,10 @@
+<b>Problem Statement Number:- CBP17</b>
+
+<h1><b>Problem Title:- <em>Personalized Healthcare Recommendation System</em></b></h1>
+
+We are a team of 4 members, we choose the topic Personalized Healthcare Recommendation System,
+where we created a full-stack healthcare platform with AI-driven healthcare recommendation system that analyzes individual health data, preferences, and medical history to provide personalized treatment plans, preventive care suggestions, and lifestyle recommendations for improved health outcomes.
+
 # Medibuddy - Intelligent Healthcare Platform
 
 A full-stack healthcare platform that analyzes patient symptoms and medical history to provide personalized health recommendations and specialist referrals, streamlining patient triage.
@@ -206,4 +213,3 @@ npm run dev:all
 ## License
 
 This project is created for hackathon purposes.
-
