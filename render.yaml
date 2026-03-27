@@ -22,10 +22,9 @@ services:
       - key: CORS_ORIGIN
         sync: false
 
-  # Frontend (Vite + React) - Free Plan Static Site
+  # Frontend (Vite + React) - Static Site (free by default)
   - type: web
     name: medibuddy-web
-    plan: free
     runtime: static
     rootDir: client
     buildCommand: npm install && npm run build
