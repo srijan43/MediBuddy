@@ -1,0 +1,35 @@
+services:
+  # Backend API (Express)
+  - type: web
+    name: medibuddy-api
+    env: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGO_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: JWT_EXPIRES_IN
+        value: 7d
+      # Set this to your frontend Render URL after it's created:
+      # e.g. https://medibuddy-web.onrender.com
+      - key: CORS_ORIGIN
+        value: ""
+
+  # Frontend (Vite + React) as a Static Site
+  - type: static
+    name: medibuddy-web
+    rootDir: client
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    envVars:
+      # Must be your backend Render URL + /api
+      # e.g. https://medibuddy-api.onrender.com/api
+      - key: VITE_API_URL
+        value: ""
+
