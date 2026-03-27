@@ -1,0 +1,18 @@
+{
+  "name": "hackaton",
+  "version": "1.0.0",
+  "description": "MediBuddy full-stack healthcare platform",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "dev:all": "npm run dev --prefix server",
+    "build": "npm run build --prefix client",
+    "start": "npm run start --prefix server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
